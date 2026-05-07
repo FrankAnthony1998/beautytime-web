@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* 1. Importación de fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* 2. Definición de variables de tema (Necesario en v4 si no las toma del config) */
+@theme {
+  --color-beauty-green: #003d33;
+  --color-beauty-gold: #b08d57;
+  --color-beauty-cream: #f9fbfb;
+  
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Montserrat", sans-serif;
+}
+
+/* 3. Estilos base corregidos */
+@layer base {
+  body {
+    @apply bg-beauty-cream;
+  }
+}
