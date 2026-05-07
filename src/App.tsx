@@ -264,7 +264,7 @@ const App = () => {
 
       {/* --- WHATSAPP FLOTANTE --- */}
       <motion.a 
-        href="https://wa.link/clinicaesteticabeautytime"
+        href="https://api.whatsapp.com/send?phone=51910203951&text=Hola!%20Vi%20la%20demo%20que%20desarrollaste%20y%20me%20gustar%C3%ADa%20m%C3%A1s%20informaci%C3%B3n%20sobre%20este%20proyecto."
         target="_blank"
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
